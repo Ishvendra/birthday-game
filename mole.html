@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Whack-An-(A)AP</title>
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="css/style.css" />
+		<style type="text/css">
+			body{
+					background-image: url("images/bg4.jpg");
+
+			}
+		</style>
+	</head>
+	<body onload="load()">
+
+		<audio autoplay="autoplay">   
+		<source src="Correct Answer.mp3" />   
+		</audio>  
+		<div class="container">
+			<h1 class="game-heading">Whack-an-(A)AP!</h1>
+			<h2 id="NAME"></h2>
+			<p class="game-heading">Apprentently AP has an evil twin who goes by the name of Anti-Aparajitha Kulusbhabkdab. Her (evil) friends call her (A)AP. Anti-AP comes from the planet unearth. She plans on taking away all the booze on the night of 12th September. We need to whack the shit out of (A)AP so that we can get wasted on "THE NIGTH STAY". </p>
+			<h2 class="game-time">Timer<span class="timer">10</span></h2>
+			<h2 class="game-score">Score<span class="score">0</span></h2>
+			<div class="grid">
+				<div class="row">
+					<div class="square">
+						<img src="images/Mole.png" class="mole" id="1" />
+						<img src="images/Hole.png" class="hole" />
+					</div>
+					<div class="square">
+						<img src="images/Mole.png" class="mole" id="2" />
+						<img src="images/Hole.png" class="hole" />
+					</div>
+					<div class="square">
+						<img src="images/Mole.png" class="mole" id="3" />
+						<img src="images/Hole.png" class="hole" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="square">
+						<img src="images/Mole.png" class="mole" id="4" />
+						<img src="images/Hole.png" class="hole" />
+					</div>
+					<div class="square">
+						<img src="images/Mole.png" class="mole" id="5" />
+						<img src="images/Hole.png" class="hole" />
+					</div>
+					<div class="square">
+						<img src="images/Mole.png" class="mole" id="6" />
+						<img src="images/Hole.png" class="hole" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="square">
+						<img src="images/Mole.png" class="mole" id="7" />
+						<img src="images/Hole.png" class="hole" />
+					</div>
+					<div class="square">
+						<img src="images/Mole.png" class="mole" id="8" />
+						<img src="images/Hole.png" class="hole" />
+					</div>
+					<div class="square">
+						<img src="images/Mole.png" class="mole" id="9" />
+						<img src="images/Hole.png" class="hole" />
+					</div>
+				</div>
+			</div>
+			<div class="button-container">
+				<button class="play">Play</button>
+				<button class="reset">Reset</button>
+				<button class="play2" onclick="playAudio()" type="button">LezzGoo</button>	
+			</div>
+		</div>
+		<audio id="myAudio">
+ 		<source src="music.mp3" type="audio/mpeg">
+		</audio>
+		<script src="js/index.js"></script>
+	</body>
+</html>
